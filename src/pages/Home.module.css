@@ -1,0 +1,28 @@
+.home {
+    background-image: url("/public/home/background-home-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+    height: auto;
+  }
+
+  @media screen and (min-width: 951px) {
+    .home {
+        height: 100vh;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+      .home {
+        background-image: url("/public/home/background-home-tablet.jpg");
+        background-position: center;
+        height: auto;
+      }
+  }
+
+  @media screen and (max-width: 400px) {
+    .home {
+        background-image: url("/public/home/background-home-mobile.jpg");
+        background-position: center;
+    }
+  }
