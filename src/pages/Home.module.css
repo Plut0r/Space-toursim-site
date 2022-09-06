@@ -17,5 +17,6 @@
     .home {
         background-image: url("/public/home/background-home-mobile.jpg");
         background-position: center;
+        height: 100vh;
     }
   }
