@@ -15,5 +15,6 @@
 @media screen and (max-width: 500px) {
     .tech {
         background-image: url("/public/technology/background-technology-mobile.jpg");
+        height: 100vh;
     }
 }
