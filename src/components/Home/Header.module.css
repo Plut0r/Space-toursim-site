@@ -1,16 +1,34 @@
 .header {
   height: 96px;
-  padding-top: 50px;
+  position: sticky;
+  top: 0;
+  inset-inline: 0;
+  z-index: 50;
 }
 
 .navDesktop {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 .logo {
   margin-left: 40px;
+  position: relative;
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+
+.navDesktop::before {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 2px;
+  width: max(200px,40%);
+  left: 120px;
+  background-color: rgba(255, 255, 255, 0.293);
 }
 
 .rectangle {
@@ -68,7 +86,7 @@
 .header li a.active {
   border-bottom: 3px solid #fff;
   padding-bottom: 35px;
-} 
+}
 
 @media screen and (max-width: 1280px) {
   .rectangle {
@@ -172,7 +190,7 @@
   }
 
   .navmobile {
-    background-image: url("/public/shared/Rectangle\ \(2\).png");
+    background-color: rgba(0, 0, 0, 0.6);
     background-size: initial;
     background-repeat: no-repeat;
     width: 250px;
@@ -184,6 +202,8 @@
     z-index: 1;
     animation-name: slide;
     animation-duration: 0.5s;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(20px);
   }
 
   @keyframes slide {

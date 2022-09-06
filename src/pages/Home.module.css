@@ -3,7 +3,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 50px;
-    height: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media screen and (max-width: 950px) {
+    .home {
+      height: auto;
+    } 
   }
 
   @media screen and (max-width: 768px) {

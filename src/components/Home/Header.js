@@ -54,11 +54,6 @@ const Header = () => {
             />
           </div>
         </div>
-        <img
-          className={classes.rectangle}
-          src="/shared/Rectangle.png"
-          alt="light-rectangle"
-        />
         <nav>
           <ul>
             <li>
