@@ -2,7 +2,7 @@
     background-image: url("/public/destination/background-destination-desktop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: auto;
+    height: 100%;
     padding-bottom: 30px;
 }
 
