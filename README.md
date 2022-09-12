@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution URL](https://github.com/Plut0r/Space-toursim-site)
-- Live Site URL: [live site URL](https://space-toursim-site.netlify.app/)
+- Live Site URL: [live site URL](https://space-tourism-site-plut0r.netlify.app/)
 
 ### Built with
 
